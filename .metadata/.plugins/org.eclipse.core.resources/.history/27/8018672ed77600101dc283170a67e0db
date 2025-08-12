@@ -1,0 +1,13 @@
+package src;
+
+public class LinkedList {
+	
+	Node head;
+	public void insert(int data) {
+		
+		if(head.next == null) {
+			head = data;
+		}
+	}
+
+}
